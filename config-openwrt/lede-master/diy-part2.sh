@@ -51,5 +51,10 @@ svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/
 #
 # ------------------------------- Other ends -------------------------------
 
-# Attempt to add third-party package
+# Attempt to add third-party package 添加第三方软件包
 git clone https://github.com/jerrykuku/luci-app-ttnode.git package/lean/luci-app-ttnode
+
+# 用第三方软件包替换当前源码库中的已有的同名软件包
+# 用第一行代码先删除源码库中原来的软件，再用第二行代码引入第三方的同名软件包
+rm -rf package/lean/luci-theme-argon
+git clone https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
