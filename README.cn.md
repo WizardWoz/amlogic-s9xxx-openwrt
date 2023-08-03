@@ -1,4 +1,4 @@
-# OpenWrt for Amlogic and Rochchip
+# OpenWrt for Amlogic and Rockchip
 
 查看英文说明 | [View English description](README.md)
 
